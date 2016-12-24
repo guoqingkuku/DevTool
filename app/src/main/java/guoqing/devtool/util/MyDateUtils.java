@@ -88,4 +88,12 @@ public class MyDateUtils {
 		int i = Integer.parseInt(sDateTime);
 		return i;
 	}
+
+	// 获取今天的时间
+	public static String getTodayTime() {
+		long todayDate = new Date().getTime();
+		String date = new SimpleDateFormat("yyyy年MM月dd日")
+				.format(new Date(todayDate));
+		return date;
+	}
 }
