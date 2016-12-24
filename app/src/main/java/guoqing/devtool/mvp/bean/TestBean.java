@@ -6,4 +6,5 @@ package guoqing.devtool.mvp.bean;
  */
 public class TestBean {
 
+
 }
